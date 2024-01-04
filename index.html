@@ -126,4 +126,20 @@ body {
 
 
 </body>
+
+<script>
+document.onkeypress = function (e) {
+    e = e || window.event;
+    console.log(e);
+	
+	if (e.key == '1')
+		window.location.href = 'acquitrini.html';
+	else if (e.key == '2')
+		window.location.href = 'comunicare.html';
+	else if (e.key == '3')
+		window.location.href = 'talk.html';
+	
+};
+</script>
+
 </html>
