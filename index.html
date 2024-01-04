@@ -68,6 +68,21 @@ body {
   display: flex;
 }
 
+#header {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  color: white;
+}
+
+#header > label {
+	font-size: 12px;
+}
+
 </style>
 </head>
 <body>
@@ -77,20 +92,24 @@ body {
   Your browser does not support HTML5 video.
 </video>
 
-<div id="loghi">
-<img src="images/orbita.png" width="107" height="34">
-<img src="images/sapienza-bianco.png" width="107" height="34">
-<img src="images/SR_trasparente_bianco.png" width="115" height="34">
-</div>
-
 <div class="content">
   <button class="myBtn" onclick="window.location.href = 'acquitrini.html';"> <b>Acquitrini |</b> Collettivo Trifoglio  </button>
   <button class="myBtn" onclick="window.location.href = 'comunicare.html';"> <b>Spazio, luce e suono</b> nell'arte accessibile</button>
   <button class="myBtn" onclick="window.location.href = 'talk.html';"> <b>Il talk.</b> Orbita Spellbound a Spazio Rossellini</button>
 </div>
 
-<div id="footer">
+<div id="header">
+	<label>Un testo di prova un po' più lungo</label>
+	<label>Margherita Galeotti</label>
+	<label>Quakche genere di altro testo</label>
 </div>
+
+<div id="loghi">
+	<img src="images/orbita.png" width="107" height="34">
+	<img src="images/sapienza-bianco.png" width="107" height="34">
+	<img src="images/SR_trasparente_bianco.png" width="115" height="34">
+</div>
+
 
 </body>
 </html>
