@@ -25,10 +25,7 @@
 </head>
 <body>
 
-  <video autoplay muted loop id ="myVideo">
-    <source src="video/background.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-  </video>
+  <iframe width="960" height="540" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
 
 </body>
 
@@ -38,11 +35,6 @@ document.onkeypress = function (e) {
 
 	if (e.key == '0')
 		window.location.href = 'index.html';
-	else if (e.key == ' ')
-	{
-		var video = document.getElementById("myVideo");
-		video.paused ? video.play() : video.pause();
-	}
 	
 };
 </script>
