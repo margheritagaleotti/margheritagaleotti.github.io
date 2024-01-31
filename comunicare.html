@@ -4,7 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Creazioni accessibili</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Noto+Kufi+Arabic:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
   <style>
+  * {
+	box-sizing: border-box;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	font-size: 15px;
+}
+
     body {
       margin: 0;
       padding: 0;
@@ -21,14 +31,52 @@
       width: auto;
       height: auto;
     }
+	
+	#header {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  color: white;
+}
+
+    #footer {
+  position: absolute;
+  top: 93%;
+  left: 3%;
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  color:white;
+}
+
+.intestazione {
+	font-size: 10px;
+}
+
   </style>
 </head>
 <body>
 
-  <iframe allowtransparency="true" style="background: #FFFFFF;" 
-    src="https://www.youtube.com/embed/tgbNymZ7vqY" 
-    frameborder="0" height="600" width="1066" allowfullscreen>
-</iframe>
+<div id="header">
+	<label class="intestazione"> Narrazione poetica a cura di Margherita Galeotti </label>
+	<label class="intestazione"> Performance di Marta Bellu | Collettivo Trifoglio </label>
+	<label class="intestazione"> Interpretazione della lingua dei segni di Elisa Cognome </label>
+	<label class="intestazione"> Doppiaggio di Serena Rappuoli </label>
+</div>
+
+<div id="footer">
+	<label class="intestazione"> Riprese di Margherita Galeotti e i/le partecipanti del workshop di Creazioni Accessibili </label>
+	<label class="intestazione"> Montaggio di Margherita Galeotti </label>
+	<label class="intestazione"> Residenza Artistica a cura di Orbita Spellbound </label>
+	<label class="intestazione"> Spazio Rossellini | Roma </label>
+	
+</div>
+
+  <iframe width="799" height="450" src="https://www.youtube.com/embed/BHOSUeptOec?si=7nDSBWDVNm2kX-2t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  
 </body>
 
